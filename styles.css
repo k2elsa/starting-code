@@ -684,42 +684,67 @@ input:checked + .slider-round:before {
 .nav {
   /* TODO: Add navigation styles */
   /* HINT: Use display, background-color, border-radius, overflow, and margin-bottom */
+  display: flex;
+  background-color: rgba(96, 9, 80, 0.227);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 8px;
 }
 
 .nav-item {
   /* TODO: Add navigation item styles */
   /* HINT: Use padding, color, text-decoration, transition */
+  padding: 10px;
+  color:#331050;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 .nav-item:hover {
   /* TODO: Add hover styles for nav items */
   /* HINT: Change background-color */
+  background-color: rgba(41, 2, 41, 0.286);;
 }
 
 .nav-item.active {
   /* TODO: Add styles for active nav item */
   /* HINT: Use background-color and font-weight */
+  background-color: #8a5c87;
+  font-weight:bold;
 }
 
 /* Progress Bar Styles */
 .progress {
   /* TODO: Add progress bar container styles */
   /* HINT: Use height, background-color, border-radius, margin, and overflow */
+  height: 20px;
+  background-color:#f6dbf47c;
+  border-radius: 5px;
+  margin: 10px;
+  overflow: hidden;
+  width: 100%;
+  display: block;
 }
 
 .progress-bar {
   /* TODO: Add progress bar styles */
   /* HINT: Use height, border-radius, and transition */
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.3s ease-in-out;
 }
 
 .progress-primary {
   /* TODO: Add primary progress bar styles */
   /* HINT: Use background-color */
+   background-color: #ac7dd2;
 }
 
 .progress-success {
   /* TODO: Add success progress bar styles */
   /* HINT: Use background-color */
+  background-color: #331050;
+  
 }
 
 /* Pagination Styles */
