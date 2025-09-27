@@ -479,69 +479,113 @@ input:checked + .slider-round:before {
 .form-group {
   /* TODO: Add form group styles */
   /* HINT: Add margin-bottom */
+  margin-bottom: 1rem;
   
 }
 
 .form-label {
   /* TODO: Add form label styles */
   /* HINT: Use display, margin, and font-weight */
+  display: block;
+  font-weight:normal;
+  margin: 10px;
 }
 
 .form-input {
   /* TODO: Add form input styles */
   /* HINT: Use width, padding, border, border-radius, font-size, transition */
+  width: 40%;
+  padding: 5px;
+  border: 1px solid #212529;
+  border-radius: 5px;
+  font-size: 12px;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .form-input:focus {
   /* TODO: Add focus styles for form inputs */
   /* HINT: Use outline, border-color, and box-shadow */
+  outline: none;
+  border-color:#212529;
+  box-shadow: 0 0 5px #331050;
 }
 
 .form-select {
   /* TODO: Add form select styles */
   /* HINT: Similar to form-input, with additional background-color */
+  width: 40%;
+  padding:5px;
+  border:1px solid #212529;
+  border-radius: 5px;
+  font-size:15px;
+  background-color:#c9b9f04a ;
+  color:rgb(15, 9, 9);
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .form-textarea {
   /* TODO: Add textarea styles */
   /* HINT: Similar to form-input, with additional min-height and resize properties */
+  width: 40%;
+  padding:5px;
+  border:solid 1px #212529;
+  border-radius: 5px;
+  font-size: 12px;
+  min-height:100%;
+  resize:vertical;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 /* Table Styles */
 .table-container {
   /* TODO: Add table container styles */
   /* HINT: Use overflow-x and margin */
+  overflow:visible;
+  margin: 10px;
 }
 
 .table {
   /* TODO: Add table styles */
   /* HINT: Use width, border-collapse, border-spacing */
+  width: 100%;
+  border-collapse:collapse;
+  border-spacing: 5px;
 }
 
 .table th,
 .table td {
   /* TODO: Add table cell styles */
   /* HINT: Use padding, text-align, border-bottom */
+  padding: 6px;
+  text-align: left;
+  border-bottom: 1px solid #333;
 }
 
 .table th {
   /* TODO: Add table header styles */
   /* HINT: Use background-color, font-weight, cursor */
+  background-color:#443665;
+  color:#fff;
+  font-weight: normal;
+  cursor: pointer;
 }
 
 .table th:hover {
   /* TODO: Add hover styles for table headers */
   /* HINT: Change background-color */
+  background-color:#9486b4;
 }
 
 .table tr {
   /* TODO: Add table row styles */
   /* HINT: Use transition */
+  transition: background-color 0.3s ease;
 }
 
 .table tr:hover {
   /* TODO: Add hover styles for table rows */
   /* HINT: Change background-color with rgba for transparency */
+  background-color: rgba(0, 0, 0, 0.112);
 }
 
 /* Badge Styles */
