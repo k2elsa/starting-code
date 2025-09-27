@@ -454,7 +454,7 @@ input:checked + .slider-round:before {
 .list-item:hover {
   /* TODO: Add hover styles for list items */
   /* HINT: Change background-color */
-  background-color:#7c53db;
+  background-color:#9486b4;
 }
 
 .list-item i {
@@ -592,57 +592,92 @@ input:checked + .slider-round:before {
 .badge {
   /* TODO: Add badge styles */
   /* HINT: Use display, padding, border-radius, font-size, font-weight, and margin-left */
+  display:inline-block;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 800;
+  margin-left:10px;
+
 }
 
 .badge-primary {
   /* TODO: Add primary badge styles */
   /* HINT: Use background-color and color */
+  background-color:#5f72c8;
+  color:#fff;
 }
 
 .badge-success {
   /* TODO: Add success badge styles */
   /* HINT: Use background-color and color */
+  background-color: #28a745;
+  color:#fff;
 }
 
 .badge-warning {
   /* TODO: Add warning badge styles */
   /* HINT: Use background-color and color */
+  background-color: #ff7f07;
+  color:#fff;
 }
 
 /* Alert Styles */
 .alert {
   /* TODO: Add alert styles */
   /* HINT: Use padding, border-radius, margin-bottom, display, align-items, and justify-content */
+  padding:10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
 }
 
 .alert i {
   /* TODO: Add icon styles in alerts */
   /* HINT: Use margin-right and font-size */
+  margin-right: 10px;
+  font-size: 12px;
 }
 
 .alert-content {
   /* TODO: Add alert content styles */
   /* HINT: Use display and align-items */
+  display: flex;
+  align-items: center;
+  flex:1;
 }
 
 .alert-close {
   /* TODO: Add alert close button styles */
   /* HINT: Use cursor and font-weight */
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 .alert-success {
   /* TODO: Add success alert styles */
   /* HINT: Use background-color, color, and border-left */
+  background-color: rgba(49, 163, 53, 0.166);
+  color:#157e22;
+  border-left: 5px solid  #fff;
 }
 
 .alert-warning {
   /* TODO: Add warning alert styles */
   /* HINT: Use background-color, color, and border-left */
+  background-color: rgba(234, 132, 42, 0.1);
+  color: #ff7904;
+  border-left: 5px solid  #fff;
 }
 
 .alert-info {
   /* TODO: Add info alert styles */
   /* HINT: Use background-color, color, and border-left */
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #2a58cb;
+  border-left: 5px solid #fff;
 }
 
 /* Navigation Styles */
